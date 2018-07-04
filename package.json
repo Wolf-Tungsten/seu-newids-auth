@@ -1,0 +1,19 @@
+{
+  "name": "seu-newids-auth",
+  "version": "1.0.0",
+  "description": "使用东南大学新信息门户进行统一身份认证的接口",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolf-Tungsten/seu-newids-auth.git"
+  },
+  "author": "Wolf-Tungsten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wolf-Tungsten/seu-newids-auth/issues"
+  },
+  "homepage": "https://github.com/Wolf-Tungsten/seu-newids-auth#readme"
+}
