@@ -1,6 +1,4 @@
 const axios = require('axios')
-const FormData = require('form-data')
-
 
 const newidsAuth = async (username, password) => {
     let needCaptcha = await axios.get(`https://newids.seu.edu.cn/authserver/needCaptcha.html?username=${username}`)

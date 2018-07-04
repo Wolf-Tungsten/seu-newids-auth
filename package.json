@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Wolf-Tungsten/seu-newids-auth/issues"
   },
-  "homepage": "https://github.com/Wolf-Tungsten/seu-newids-auth#readme"
+  "homepage": "https://github.com/Wolf-Tungsten/seu-newids-auth#readme",
+  "dependencies": {
+    "form-data": "^2.3.2"
+  }
 }
