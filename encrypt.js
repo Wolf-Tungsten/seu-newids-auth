@@ -73,10 +73,11 @@ function encryptPassword(pwd0, pwdDefaultEncryptSalt) {
 	try{
 		var pwd1 = encryptAES(pwd0,pwdDefaultEncryptSalt);
         //$("#casLoginForm").find("#passwordEncrypt").val(pwd1);
-        console.log(pwd1)
+        return (pwd1)
 	}catch(e){
-		//$("#casLoginForm").find("#passwordEncrypt").val(pwd0);
+	return (pwd0)
+	//$("#casLoginForm").find("#passwordEncrypt").val(pwd0);
 	}
 }
 
-module.exports = {encryptPassword}
+module.exports = encryptPassword
